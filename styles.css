@@ -131,15 +131,26 @@ input:before{
     border: none;
 }
 
+.btn-search{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+    font-size: 14px;
+}
+
 .buttons-search{
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
 }
 
-.buttons-search button{
-    box-sizing: border-box;
+.buttons-search a{
     padding: 10px 20px;
     margin: 0 10px;
     background-color: rgb(236, 236, 236);
@@ -184,7 +195,7 @@ input:before{
     align-items: center;
 }
 
-.link-footer{    
+.footer-link{    
     text-decoration: none;
     margin-inline: 10px;
 }
