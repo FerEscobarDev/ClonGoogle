@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: end;    
+}
+
+.link-nav{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.img-nav{
+    text-decoration: none;    
+    align-items: center;
+}
+
+.img-nav svg{
+    height: 24px; 
+    margin: 0 10px;
+}
+
+.button-nav{
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: rgb(42, 122, 212);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.content-main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+    margin-top: 100px;
+}
+
+.search{
+    min-width: 350px;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-color: lightgrey;
+    border-radius: 50px;
+    margin: 30px 0;
+
+}
+
+.input-search{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-input{
+    height: 20px;
+    width: 20px;
+}
+
+.input{
+    border: none;
+    flex-grow: 5;
+}
+
+.buttons-search{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-search button{
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: rgb(236, 236, 236);
+    font-weight: 300;
+}
+
+.footer > div{
+    padding: 15px;
+    color: gray;
+}
+
+.footer1{
+    border-bottom: lightgrey 1px solid;
+}
+
+.footer1 span{
+    margin-left: 10px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-footer{    
+    text-decoration: none;
+    margin-inline: 10px;
+}
+
+.content-footer2{
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+}
+
+
+
