@@ -22,16 +22,43 @@ body{
     margin: 0 10px;
     text-decoration: none;
     color: black;
+    font-size: small;
+}
+
+.link-nav:hover{
+    text-decoration: underline;
 }
 
 .img-nav{
-    text-decoration: none;    
+    text-decoration: none; 
+    display: flex;   
     align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 0px;
+    margin-inline: 10px;    
+    height: 35px;
+    width: 35px;    
+    border-radius: 50px;
+    border: none;
+    background: none;
 }
 
 .img-nav svg{
-    height: 24px; 
-    margin: 0 10px;
+    height: 24px;
+}
+
+.img-nav:active{
+    background: rgb(212, 211, 211);
+}
+
+.img-nav:hover{
+    background: rgb(236, 236, 236);    
+    cursor: pointer;
+}
+
+.img-nav:focus{
+    background: rgb(236, 236, 236); 
 }
 
 .button-nav{
@@ -41,6 +68,15 @@ body{
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+.button-nav:hover{
+    background: rgb(32, 109, 197);
+    cursor: pointer;
+}
+
+.button-nav:active{
+    background: rgb(23, 97, 180);;
 }
 
 .content-main{
@@ -60,7 +96,10 @@ body{
     border-color: lightgrey;
     border-radius: 50px;
     margin: 30px 0;
+}
 
+.search:hover{
+    box-shadow: 1px 1px 2px 2px rgb(204, 204, 204) ;
 }
 
 .input-search{
@@ -75,20 +114,50 @@ body{
 
 .input{
     border: none;
+    box-shadow: none;
     flex-grow: 5;
+}
+
+.input:focus{    
+    border: none;
+    outline: none;
+}
+
+.input::after{
+    border: none;
+}
+
+input:before{
+    border: none;
 }
 
 .buttons-search{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 40px;
 }
 
 .buttons-search button{
+    box-sizing: border-box;
     padding: 10px 20px;
     margin: 0 10px;
     background-color: rgb(236, 236, 236);
     border: none;
     border-radius: 5px;
+}
+
+.button:hover{
+    border: 1px solid rgb(204, 204, 204) ;
+}
+
+.google{
+  margin-top: 20px;
+  font-size: small;
+}
+
+.google a {
+  color: blue;
 }
 
 .footer{
